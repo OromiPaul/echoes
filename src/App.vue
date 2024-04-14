@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Hello there !"/>
+  <inputChat/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import inputChat from './components/InputChat.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    inputChat
   }
 }
 </script>
